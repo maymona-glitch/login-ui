@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f8f9fb;
+}
+
+.left,
+.right {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    max-width: 500px;
+    margin: auto;
+}
+
+.left h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left input {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #eaf2fe;
+}
+
+.left label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.remember {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.remember input {
+    margin-right: 8px;
+}
+
+.left button {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #458eff;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.google-btn {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.create-account {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.right {
+    background-color: #3b82f6;
+    color: white;
+    padding: 40px;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+.right h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.ticket-box {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.ticket-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ticket-box th,
+.ticket-box td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ticket-box td img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.in-progress {
+    background-color: #3b82f6;
+}
+
+.resolved {
+    background-color: #10b981;
+}
+
+.pending {
+    background-color: #fbbf24;
+}
+
+.open {
+    background-color: #ef4444;
+}
+
+.rating-box {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.rating-stars {
+    color: #facc15;
+}
+
+
+.t {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+}

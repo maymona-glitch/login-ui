@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="t5.css">
+</head>
+
+<body>
+    <div class="left">
+        <h1>C - Help</h1>
+        <p>Welcome back<br>New to Chelp? <a href="#" class="create-account">create an account</a></p>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" />
+            <label class="remember"><input type="checkbox" /> Remember me</label>
+            <button type="submit">Sign in</button>
+            <div class="google-btn">
+                <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google icon">
+                Sign in with Google
+            </div>
+        </form>
+    </div>
+    <div class="right">
+        <div class="rating-box">
+            <strong>Overall Rating</strong>
+            <div style="font-size: 2rem;">4.8/5</div>
+            <div class="rating-stars">★★★★★</div>
+            <p>Rating Ratio</p>
+            <div style="background: #eee; border-radius: 10px; overflow: hidden; height: 10px; width: 100px;">
+                <div style="width: 33%; height: 100%; background: #3b82f6;"></div>
+            </div>
+        </div>
+        <h2>The best platform for customer support</h2>
+        <div class="ticket-box">
+            <table>
+                <tr>
+                    <th>Requester</th>
+                    <th>Assignee</th>
+                    <th>Status</th>
+                    <th>Interactions</th>
+                </tr>
+                <tr>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><span class="status in-progress">In Progress</span></td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><span class="status resolved">Resolved</span></td>
+                    <td>+5</td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><span class="status pending">Pending</span></td>
+                    <td>+2</td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><img src="https://www.gravatar.com/avatar/?d=mp">User Name<br><small>user position</small></td>
+                    <td><span class="status open">Open</span></td>
+                    <td>+1</td>
+                </tr>
+            </table>
+        </div>
+        <p class="t">New entire experience & interface</p>
+    </div>
+
+
+    <script src="t5.js"></script>
+</body>
+
+</html>
